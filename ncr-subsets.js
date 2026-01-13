@@ -1,4 +1,4 @@
-import isInteger from "number.isinteger";
+const isInteger = require("number.isinteger");
 
 // combinations: n choose r (nCr)
 function nCrSubsets(n, r) {
@@ -17,12 +17,14 @@ function nCrSubsetsRecursive(n, r, subset, setOfSubsets) {
   let initial = subset.length > 0 ? subset[subset.length-1]+1 : 0;
   for (let i=initial; i<n; i++) {
     let s = [...subset];
-    s.push(i)
+    s.push(i);
     if (s.length == r) {
       setOfSubsets.push(s);
     } else {
-      nCrSubsetsRecursive(n, r, s, setOfSubsets)
+      nCrSubsetsRecursive(n, r, s, setOfSubsets);
     }
   }
-  return setOfSubsets
+  return setOfSubsets;
 }
+
+nCrSubsets(4,2);
