@@ -1,6 +1,6 @@
 {
   "name": "ncr-combinations",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "nCr combinations",
   "main": "ncr-subsets.js",
   "author": "akienmain <akienmain@gmail.com>",

@@ -1,9 +1,7 @@
-const isInteger = require("number.isinteger");
-
 // combinations: n choose r (nCr)
 function nCrSubsets(n, r) {
   if (
-    (isInteger(n) && isInteger(r)) &&
+    (Number.isInteger(n) && Number.isInteger(r)) &&
     (n >= 0 && r >= 0) &&
     n >= r
   ) {
@@ -26,5 +24,3 @@ function nCrSubsetsRecursive(n, r, subset, setOfSubsets) {
   }
   return setOfSubsets;
 }
-
-nCrSubsets(4,2);
