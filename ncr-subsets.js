@@ -5,11 +5,16 @@ function nCrSubsets(n, r) {
     (n >= 0 && r >= 0) &&
     n >= r
   ) {
-    return nCrSubsetsRecursive(n, r, [], []);
+    if (r != 0) {
+      return nCrSubsetsRecursive(n, r, [], []);
+    } else {
+      return [[]];
+    }
   } else {
     return undefined;
   }
 }
+module.exports = nCrSubsets;
 
 function nCrSubsetsRecursive(n, r, subset, setOfSubsets) {
   let initial = subset.length > 0 ? subset[subset.length-1]+1 : 0;
