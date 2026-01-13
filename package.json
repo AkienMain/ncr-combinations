@@ -1,0 +1,23 @@
+{
+  "name": "ncr-combinations",
+  "version": "1.0.1",
+  "description": "nCr combinations",
+  "main": "ncr-subsets.js",
+  "author": "akienmain <akienmain@gmail.com>",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/AkienMain/ncr-combinations/LICENSE"
+  },
+  "dependencies": {
+    "number.isinteger": "*"
+  },
+  "keywords": [
+    "combinations",
+    "nCr"
+  ],
+  "homepage": "https://github.com/AkienMain/ncr-combinations",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AkienMain/ncr-combinations.git"
+  }
+}
