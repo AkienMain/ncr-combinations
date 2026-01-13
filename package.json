@@ -4,10 +4,7 @@
   "description": "nCr combinations",
   "main": "ncr-subsets.js",
   "author": "akienmain <akienmain@gmail.com>",
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/AkienMain/ncr-combinations/blob/main/LICENSE"
-  },
+  "license" : "MIT",
   "dependencies": {
     "number.isinteger": "*"
   },
