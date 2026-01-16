@@ -1,6 +1,6 @@
 {
   "name": "ncr-combinations",
-  "version": "1.0.4",
+  "version": "1.0.41",
   "description": "nCr combinations",
   "main": "ncr-subsets.js",
   "author": "akienmain <akienmain@gmail.com>",
@@ -13,7 +13,8 @@
   },
   "keywords": [
     "combinations",
-    "nCr"
+    "nCr",
+    "math"
   ],
   "homepage": "https://github.com/AkienMain/ncr-combinations",
   "repository": {
